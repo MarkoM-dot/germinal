@@ -1,0 +1,32 @@
+*germinal.txt*     A journal in your terminal       Last change: 2024 March 10
+                                                      
+Author: Marko Maric
+Version: 0.1.0
+Homepage:
+License: MIT license
+
+==============================================================================
+INTRODUCTION                                            germinal-introduction 
+
+This plugin let's you write notes quickly while in your terminal.
+
+                                                      *germinal.setup({opts})*
+germinal.setup({opts})
+    
+    Setup function that configures default options.
+
+    Usage:
+    >
+    require('germinal').setup({
+        root_dir = "/home/mary-bloggs/notes"
+    })
+<
+    
+
+                                                    *germinal.journal_entry()*
+germinal.journal_entry()
+
+    Create a new journal entry in your journal directory. A journal for the
+    day is either created or appended to if the file already exists.
+
+vim:tw=78:ts=8:ft=help:norl:

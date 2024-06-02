@@ -1,0 +1,3 @@
+germinal.journal_entry()	germinal.txt	/*germinal.journal_entry()*
+germinal.setup({opts})	germinal.txt	/*germinal.setup({opts})*
+germinal.txt	germinal.txt	/*germinal.txt*
