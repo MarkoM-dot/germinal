@@ -65,6 +65,16 @@ function SelectionWindow:_set_keymaps(bufnr, win_id)
   vim.api.nvim_buf_set_keymap(
     bufnr,
     "n",
+    "<Esc>",
+    ":close<CR>",
+    {
+      noremap = true,
+      silent = true,
+    }
+  )
+  vim.api.nvim_buf_set_keymap(
+    bufnr,
+    "n",
     keymap_close,
     ":close<CR>",
     {
